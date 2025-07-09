@@ -1,0 +1,17 @@
+# === CONFIGURATION FILES WITH CREDENTIALS ===
+config/aws_config.py
+config/mongo_config.py
+
+# === PYTHON CACHE FILES ===
+__pycache__/
+*.py[cod]
+
+# === VIRTUAL ENVIRONMENT ===
+venv/
+
+# === ENVIRONMENT VARIABLES FILE ===
+.env
+
+# === SYSTEM FILES (Auto-generated OS junk) ===
+.DS_Store
+Thumbs.db
