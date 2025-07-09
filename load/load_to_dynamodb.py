@@ -20,7 +20,7 @@ def load_from_file_and_insert():
             item["technologies"] = [tech.strip() for tech in item["technologies"].split(',')]
         table.put_item(Item=item)
 
-    print(f"✅ {len(records)} records loaded into DynamoDB.")
+    print(f" {len(records)} records loaded into DynamoDB.")
 
 if __name__ == "__main__":
     load_from_file_and_insert()
